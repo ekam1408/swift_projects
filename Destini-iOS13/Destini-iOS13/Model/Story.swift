@@ -7,3 +7,13 @@
 //
 
 import Foundation
+
+struct Story {
+    var question: String = ""
+    var options: [String] = []
+    init(question: String, option1: String, option2: String){
+        self.question = question;
+        self.options.append(option1);
+        self.options.append(option2);
+    }
+}
