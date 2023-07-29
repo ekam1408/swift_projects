@@ -1,6 +1,6 @@
 //
-//  i_am_rich_uiApp.swift
-//  i am rich ui
+//  EkamProfileApp.swift
+//  EkamProfile
 //
 //  Created by Ekambeer Singh on 29/07/23.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct i_am_rich_uiApp: App {
+struct EkamProfileApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
